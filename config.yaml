@@ -1,0 +1,15 @@
+data:
+  processed: "data/processed/"
+
+model:
+  eeg_dim: 128
+  audio_dim: 40
+  hidden_dim: 256
+  num_heads: 4
+  num_classes: 10
+
+train:
+  batch_size: 32
+  epochs: 20
+  lr: 0.001
+  log_dir: "logs/"
